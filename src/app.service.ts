@@ -9,7 +9,7 @@ export class AppService {
     return 'This is about page';
   }
   myFuc():string{
-    console.log("Hi I am here")
-    return "I am here"
+    console.log("Hello I have gone")
+    return "Hello I have gone"
   }
 }
