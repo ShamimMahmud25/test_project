@@ -24,8 +24,8 @@ export class AppController {
   getNew(@Req() request: Request): string {
     return this.appService.getNew();
   }
-  @Cron('11 * * * * *')
-  async sendEmailPushNotification(){
-    await this.appService.myFuc();
+  @Get('news')
+  getNews(@Req() request: Request): string {
+    return this.appService.getNews();
   }
 }
