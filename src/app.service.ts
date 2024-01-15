@@ -11,8 +11,7 @@ export class AppService {
   getNew(): string {
     return 'This is new page';
   }
-  myFuc():string{
-    console.log("Hi I am here")
-    return "I am here"
+  getNews(): string {
+    return 'This is news page';
   }
 }
