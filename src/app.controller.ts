@@ -24,8 +24,8 @@ export class AppController {
   getNew(@Req() request: Request): string {
     return this.appService.getNew();
   }
-  @Get('news')
-  getNews(@Req() request: Request): string {
-    return this.appService.getNews();
-  }
+  // @Get('news')
+  // getNews(@Req() request: Request): string {
+  //   return this.appService.getNews();
+  // }
 }
